@@ -1,0 +1,230 @@
+
+.card-custom {
+    background-color: #f8f0ff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    width: 260px;
+    margin: 20px auto;
+}
+
+.card-custom i {
+    font-size: 50px;
+    color: #000;
+}
+
+.card-custom .title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #000;
+}
+
+.card-custom .subtitle {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+
+.price {
+    color: red;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-item.dropdown .dropdown-toggle::after {
+    display: none;
+}
+
+nav.navbar {
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn-custum:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+.card .btn-custum {
+    display: block;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover .btn-custum {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.nav .nav-item .nav-link{
+    color: rgba(var(--bs-emphasis-color-rgb), 0.65);
+}
+
+.nav .nav-item .nav-link:hover{
+    color: black
+}
+
+.product-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #003a70;
+}
+.product-price {
+    font-size: 1.5rem;
+    color: #e60000;
+    font-weight: bold;
+}
+.product-info {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+
+.service-box {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #333;
+}
+.service-box i {
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+.quantity-control input {
+    width: 50px;
+    text-align: center;
+    border: none;
+    background-color: #f8f9fa;
+}
+.quantity-control button {
+    border: none;
+    background-color: #f8f9fa;
+    padding: 0 10px;
+}
+.quantity-control button:focus {
+    outline: none;
+}
+
+.h-cus{
+    font-family: Quicksand, sans-serif, ;
+    font-weight: bold;
+    color: #011E60;
+}
+
+.subheader {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.nav-link:hover {
+    color: #4A00E0;
+}
+.no-reviews {
+    color: #000000;
+}
+.btn-new-review {
+    background-color: #4A00E0;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btn-new-review:hover {
+    background-color: #3A00C0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cart-item .item-info {
+    flex-grow: 1;
+}
+
+.cart-item .item-info p {
+    margin: 0;
+}
+
+.card-text{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.cart-item .item-info .item-color {
+    color: #888;
+}
+
+.cart-item .item-price {
+    color: red;
+}
+
+
+.total-section .total-amount {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    opacity: 1;
+    overflow-y: scroll;
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+li {
+    list-style: none;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.275rem;
+    color: var(--bs-emphasis-color);
+}
+
+
